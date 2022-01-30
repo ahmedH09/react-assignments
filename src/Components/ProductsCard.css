@@ -1,0 +1,11 @@
+/* .itemCard {
+    display: flex;
+
+} */
+
+
+.cardRow {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}

@@ -1,0 +1,33 @@
+.productHeading {
+    font-size: larger;
+    text-align: start;
+}
+
+.itemImg {
+    width: 120px;
+}
+
+.productname {
+    font-size: small;
+    text-align: start;
+}
+
+.imgRow {
+    display: flex;
+    justify-content: center;
+}
+
+.imgCol {
+    margin: 5px;
+}
+
+.card {
+    /* min-width: 300px; */
+    /* max-width: 500px; */
+    width: 300px;
+}
+/* 
+.cardRow {
+    display: flex;
+    justify-content: space-between;
+} */
