@@ -1,4 +1,11 @@
 .cardRow {
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.item {
+    flex: 0 1 120px;
 }

@@ -24,23 +24,31 @@ function ProductsInfo() {
   return (
     <div className="container">
       <h1 className="text-center">Composition of components</h1>
-      {/* component-1*/}
       <div className="cardRow">
-        <ProductsCard productObj={productsList[0]}>
-          <span>Effective dishwashing for Indian cooking</span>
-        </ProductsCard>
+        {/* component-1*/}
+        <div className="item">
+          <ProductsCard productObj={productsList[0]}>
+            <span>Effective dishwashing for Indian cooking</span>
+          </ProductsCard>
+        </div>
         {/* component-2*/}
-        <ProductsCard productObj={productsList[1]}>
-          <span>Value Packs under ₹599 | Amazon Brands & more</span>
-        </ProductsCard>
+        <div className="item">
+          <ProductsCard productObj={productsList[1]}>
+            <span>Value Packs under ₹599 | Amazon Brands & more</span>
+          </ProductsCard>
+        </div>
         {/* component-3*/}
-        <ProductsCard productObj={productsList[2]}>
-          <span>Up to 45% off | Top offers from Amazon Brand - Solimo</span>
-        </ProductsCard>
+        <div className="item">
+          <ProductsCard productObj={productsList[2]}>
+            <span>Up to 45% off | Top offers from Amazon Brand - Solimo</span>
+          </ProductsCard>
+        </div>
         {/* component-4*/}
-        <ProductsCard productObj={productsList[3]}>
-          <span>Up to 60% off | Fitness essentials to set up your home</span>
-        </ProductsCard>
+        <div className="item">
+          <ProductsCard productObj={productsList[3]}>
+            <span>Up to 60% off | Fitness essentials to set up your home</span>
+          </ProductsCard>
+        </div>
       </div>
     </div>
   );
