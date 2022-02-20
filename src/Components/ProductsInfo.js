@@ -1,29 +1,49 @@
-import ProductsCarousel from "./ProductsCarousel";
+import ProductsCard from "./ProductsCard";
+import "./ProductsInfo.css";
 
 function ProductsInfo() {
+  let productsList = [
+    {
+      productImg:
+        "https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/DW_CC_-_March_379x304._SY304_CB655397356_.jpg",
+    },
+    {
+      productImg:
+        "https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2021/wrs/mencombo_low._SY304_CB666768535_.jpg",
+    },
+    {
+      productImg:
+        "https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_furniture_pc_cc_379x304_in-en._SY304_CB643322439_.jpg",
+    },
+    {
+      productImg:
+        "https://images-eu.ssl-images-amazon.com/images/G/31/img19/Sports/GW_Desktop/1199101_379x304_Compressed._SY304_CB448278349_.jpg",
+    },
+  ];
 
-    let productsList = [
-        {
-            productImg1:"https://m.media-amazon.com/images/I/51tEyERnJpS._AC_SY200_.jpg",
-            productImg2:"https://m.media-amazon.com/images/I/41O6qSud6XL._AC_SY200_.jpg",
-            productImg3:"https://m.media-amazon.com/images/I/81YN2c3u93L._AC_SY200_.jpg",
-            productImg4:"https://m.media-amazon.com/images/I/71QPsIqbKgL._AC_SY200_.jpg",
-            productImg5:"https://m.media-amazon.com/images/I/41gAB7GbI9L._AC_SY200_.jpg",
-            productImg6:"https://m.media-amazon.com/images/I/714reuTnBLS._AC_SY200_.jpg",
-            productImg7:"https://m.media-amazon.com/images/I/61ayoEIYfDL._AC_SY200_.jpg",
-            productImg8:"https://m.media-amazon.com/images/I/41o-CJxD0eS._AC_SY200_.jpg",
-            productImg9:"https://m.media-amazon.com/images/I/918Rh-XUN5L._AC_SY200_.jpg",
-            productImg10:"https://m.media-amazon.com/images/I/41l6zjzGqjL._AC_SY200_.jpg",
-        }
-    ];
-
-    return (
-        <div className="container text-center border border-dark">
-            <h1>Composition of components</h1>
-            {/* component-1 (carousel-1) */}
-            <ProductsCarousel productObj = {productsList[0]} />
-        </div>
-    );
+  return (
+    <div className="container">
+      <h1 className="text-center">Composition of components</h1>
+      {/* component-1*/}
+      <div className="cardRow">
+        <ProductsCard productObj={productsList[0]}>
+          <span>Effective dishwashing for Indian cooking</span>
+        </ProductsCard>
+        {/* component-2*/}
+        <ProductsCard productObj={productsList[1]}>
+          <span>Value Packs under ₹599 | Amazon Brands & more</span>
+        </ProductsCard>
+        {/* component-3*/}
+        <ProductsCard productObj={productsList[2]}>
+          <span>Up to 45% off | Top offers from Amazon Brand - Solimo</span>
+        </ProductsCard>
+        {/* component-4*/}
+        <ProductsCard productObj={productsList[3]}>
+          <span>Up to 60% off | Fitness essentials to set up your home</span>
+        </ProductsCard>
+      </div>
+    </div>
+  );
 }
 
 export default ProductsInfo;

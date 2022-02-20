@@ -1,0 +1,20 @@
+.card {
+    width: 20rem;
+    margin: 7.5px;
+    border-color: black;
+}
+
+.cardHeading {
+    font-size: large;
+    font-weight: bold;
+}
+
+.card-header {
+    background-color: white;
+    border-color: white;
+}
+
+.card-footer {
+    background-color: white;
+    border-color: white;
+}
