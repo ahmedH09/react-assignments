@@ -42,8 +42,8 @@ function ComponentsInfo() {
   ];
 
   return (
-    <div className="container">
-      <h1 className="">The Basics Upgrade-All New Casual Tees</h1>
+    <div className="container comp2 mt-3">
+      <h1 className="text-light">The Basics Upgrade-All New Casual Tees</h1>
       <div className="cardRow">
         {/* <div className="item">
           {productsList.map((productObj, index) => (

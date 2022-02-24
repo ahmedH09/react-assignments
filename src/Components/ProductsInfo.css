@@ -9,3 +9,7 @@
 .item {
     flex: 0 1 120px;
 }
+
+.comp1 {
+    background-color: #0d0f43;
+}

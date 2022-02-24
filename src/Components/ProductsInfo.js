@@ -22,8 +22,8 @@ function ProductsInfo() {
   ];
 
   return (
-    <div className="container">
-      <h1 className="text-center">Composition of components</h1>
+    <div className="container comp1">
+      <h1 className="text-center text-light">Composition of components</h1>
       <div className="cardRow">
         {/* component-1*/}
         <div className="item">
