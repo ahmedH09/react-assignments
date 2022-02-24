@@ -9,7 +9,7 @@ function ProductsInfo() {
     },
     {
       productImg:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2021/wrs/mencombo_low._SY304_CB666768535_.jpg",
+        "https://m.media-amazon.com/images/I/81ct9hJAeCL._AC_UL480_QL65_.jpg",
     },
     {
       productImg:
@@ -27,14 +27,14 @@ function ProductsInfo() {
       <div className="cardRow">
         {/* component-1*/}
         <div className="item">
-          <ProductsCard productObj={productsList[0]}>
+          <ProductsCard productObj={productsList[1]}>
             <span>Effective dishwashing for Indian cooking</span>
           </ProductsCard>
         </div>
         {/* component-2*/}
         <div className="item">
-          <ProductsCard productObj={productsList[1]}>
-            <span>Value Packs under ₹599 | Amazon Brands & more</span>
+          <ProductsCard productObj={productsList[0]}>
+            <span>Amazon Brand - Symbol Men's Regular T-Shirt</span>
           </ProductsCard>
         </div>
         {/* component-3*/}

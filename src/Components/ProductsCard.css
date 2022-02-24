@@ -10,6 +10,11 @@
     font-weight: bold;
 }
 
+.b {
+    height: 210px;
+    width: 265px;
+}
+
 .card-header {
     background-color: white;
     border-color: white;

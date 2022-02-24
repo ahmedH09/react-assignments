@@ -1,0 +1,35 @@
+.a {
+    width: 252px;
+    height: 450px;
+}
+
+.a-img {
+    width: 190px;
+    height: 272.5px;
+}
+
+.card-title {
+    font-size: 15px;
+}
+
+.card-text p {
+    margin-bottom: 0px;
+}
+
+.card-text .cost {
+    color: #B12704;
+    font-size: x-large;
+}
+
+.card-text .totalCost {
+    text-decoration: line-through;
+    color: #565959;
+}
+
+.card-text .rating{
+    font-size: medium;
+}
+
+.card-text .discount{
+    font-size: medium;
+}

@@ -13,7 +13,7 @@ function ProductsCard(props) {
             </div>
             <div className="card-body">
               <div>
-                <img className="card-img" src={props.productObj.productImg} alt="..." />
+                <img className="card-img b" src={props.productObj.productImg} alt="..." />
               </div>
             </div>
             <div className="card-footer">
