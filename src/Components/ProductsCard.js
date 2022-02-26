@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ProductsCard.css";
 
 function ProductsCard(props) {
@@ -17,7 +18,8 @@ function ProductsCard(props) {
               </div>
             </div>
             <div className="card-footer">
-              <a href="...">See more</a>
+              {/* <a href="...">See more</a> */}
+              <Link to="componentsInfo">See more</Link>
             </div>
           </div>
         </div>

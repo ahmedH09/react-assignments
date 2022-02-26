@@ -5,12 +5,13 @@ function ProductsInfo() {
   let productsList = [
     {
       productImg:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/DW_CC_-_March_379x304._SY304_CB655397356_.jpg",
+        "https://m.media-amazon.com/images/I/81ct9hJAeCL._AC_UL480_QL65_.jpg",
     },
     {
       productImg:
-        "https://m.media-amazon.com/images/I/81ct9hJAeCL._AC_UL480_QL65_.jpg",
+        "https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/DW_CC_-_March_379x304._SY304_CB655397356_.jpg",
     },
+    
     {
       productImg:
         "https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/baugwsept/xcm_banners_furniture_pc_cc_379x304_in-en._SY304_CB643322439_.jpg",
@@ -27,14 +28,14 @@ function ProductsInfo() {
       <div className="cardRow">
         {/* component-1*/}
         <div className="item">
-          <ProductsCard productObj={productsList[1]}>
-            <span>Effective dishwashing for Indian cooking</span>
+          <ProductsCard productObj={productsList[0]}>
+          <span>Amazon Brand - Symbol Men's Regular T-Shirt</span>
           </ProductsCard>
         </div>
         {/* component-2*/}
         <div className="item">
-          <ProductsCard productObj={productsList[0]}>
-            <span>Amazon Brand - Symbol Men's Regular T-Shirt</span>
+          <ProductsCard productObj={productsList[1]}>
+            <span>Effective dishwashing for Indian cooking</span>
           </ProductsCard>
         </div>
         {/* component-3*/}

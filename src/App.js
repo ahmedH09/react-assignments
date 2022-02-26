@@ -1,6 +1,7 @@
 import "./App.css";
 import ProductsInfo from "./Components/ProductsInfo";
 import ComponentsInfo from './Components/ComponentsInfo'
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -9,9 +10,19 @@ function App() {
       <div className="container-fluid">
         <ProductsInfo />
       </div>
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
         <ComponentsInfo />
-      </div>
+      </div> */}
+
+      {/* creating routes */}
+      <Routes>
+        {/* route for home page */}
+
+          {/* route for first card (link for first card) */}
+          <Route path="componentsInfo" element={<ComponentsInfo />}></Route>
+        
+      </Routes>
+
     </div>
   );
 }
