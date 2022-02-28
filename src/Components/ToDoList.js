@@ -13,7 +13,7 @@ function ToDoList(props) {
             </div>} 
             {props.todoList.length !== 0 &&
             <div className="table-responsive">
-                <table className="table table-bordered border-primary">
+                <table className="table table-bordered">
                     <thead>
                         <tr>
                             <th scope="col" className="w-25">S. No.</th>
