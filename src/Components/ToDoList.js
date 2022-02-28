@@ -13,15 +13,17 @@ function ToDoList(props) {
             </div>} 
             {props.todoList.length !== 0 &&
             <div className="table-responsive">
-                <table className="table table-bordered">
-                    {/* <thead>
+                <table className="table table-bordered border-primary">
+                    <thead>
                         <tr>
-                            <td>ToDo Item</td>
+                            <th scope="col" className="w-25">S. No.</th>
+                            <th scope="col">To Do Item</th>
                         </tr>
-                    </thead> */}
+                    </thead>
                     <tbody>
                         {
                             props.todoList.map(item => <tr key={props.todoList.indexOf(item)}>
+                                <th scope="row">{props.todoList.indexOf(item) + 1}</th>
                                 <td>{item}</td>
                             </tr>)
                         }

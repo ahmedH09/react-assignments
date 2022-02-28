@@ -14,10 +14,10 @@ function App() {
       <div className='container py-5 h-100'>
         <div className='row d-flex justify-content-center align-content-center'>
           <div className='col col-lg-9 col-xl-7'>
-            <div className='card rounded-3'  style={{backgroundColor: "#FEF4EA",}}>
+            <div className='card rounded-3 shadow'  style={{backgroundColor: "#FEF4EA",}}>
               <div className='card-body p-4'>
 
-                <h4 className='text-center my-3'>To Do App</h4>
+                <h4 className='text-center my-3 title'>To Do App</h4>
 
                 <AddToDo todoList={todoList} setTodoList={setTodoList} />
                 <br></br>
