@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const productSlice = createSlice({
     name: "products",
-    initialState: ["pencil", "eraser", "sharpener"],
+    initialState: [],
     reducers: {
         addProduct: (state, action) => {
             state.push(action.payload)
