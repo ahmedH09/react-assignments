@@ -5,80 +5,117 @@ import "./ProductsCard.css";
 function ProductsCard() {
   let productsList = [
     {
-      productImage1:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GW/QC/Home/bedsheet_B06Y5GF9SF_Asins_186x116._SY116_CB409842842_.jpg",
-      productTitle1: "Home products",
-      productImage2:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/pbbaupbgw/xcm_banners_furniture_186x116_186x116_in-en._SY116_CB666250402_.jpg",
-      productTitle2: "Furniture",
-      productImage3:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img20/AmazonBrands/GWTransition/2-4_186x116._SY116_CB433910795_.jpg",
-      productTitle3: "Home products",
-      productImage4:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2020/GatewayNK/PC/spb_186x116._SY116_CB433889053_.jpg",
-      productTitle4: "Furniture",
+      productImg:
+        "https://m.media-amazon.com/images/I/71E5zB1qbIL._AC_UY327_FMwebp_QL65_.jpg",
+      productHeading: "Apple iPhone 12 (64GB) - (Product) RED",
+      productRating: "4.6/5",
+      cost: "₹55,999",
+      totalCost: "₹65,900",
+      discount: "₹9,901 (15%)",
     },
     {
-      productImage1:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg",
-      productTitle1: "Cleaning accessories",
-      productImage2:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg",
-      productTitle2: "Tyre & rim care",
-      productImage3:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg",
-      productTitle3: "Helmet",
-      productImage4:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg",
-      productTitle4: "Vacuum cleaner",
+      productImg:
+        "https://m.media-amazon.com/images/I/71os5DRhuSL._AC_UY327_FMwebp_QL65_.jpg",
+      productHeading: "Samsung Galaxy M32 5G (Sky Blue, 8GB RAM, 128GB Storage)",
+      productRating: "4.2/5",
+      cost: "₹22,999",
+      totalCost: "₹25,990",
+      discount: "₹2,991 (12%)",
     },
     {
-      productImage1:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/week27gw/xcm_banners_tvs_186x116-product-badge-4qqt8_186x116_in-en._SY116_CB663888093_.jpg",
-      productTitle1: "Smart LED TVs",
-      productImage2:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/week27gw/xcm_banners_la_186x116_186x116_in-en._SY116_CB663888095_.jpg",
-      productTitle2: "Appliances",
-      productImage3:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/week27gw/xcm_banners_furn_186x116_372x232_in-en._SY116_CB663888090_.jpg",
-      productTitle3: "Furniture",
-      productImage4:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/home_private_label/moritika/week27gw/xcm_banners_kitchen_186x116_186x116_in-en._SY116_CB663888093_.jpg",
-      productTitle4: "Kitchen products",
+      productImg:
+        "https://m.media-amazon.com/images/I/81zLNgcvlaL._AC_UY327_FMwebp_QL65_.jpg",
+      productHeading: "Redmi Note 11 (Horizon Blue, 4GB RAM, 64GB Storage)",
+      productRating: "3.9/5",
+      cost: "₹13,999",
+      totalCost: "₹17,999",
+      discount: "₹4,000 (22%)",
     },
     {
-      productImage1:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/Tools1x._SY116_CB424026090_.jpg",
-      productTitle1: "Professional tools",
-      productImage2:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2021/BAU_GW_Graphics/PCQC/2._SY116_CB643952439_.jpg",
-      productTitle2: "Measuring instruments",
-      productImage3:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2021/BAU_GW_Graphics/PCQC/1._SY116_CB643952439_.jpg",
-      productTitle3: "Cleaning supplies",
-      productImage4:
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img17/Biss/2018/QC/med1x._SY116_CB424026091_.jpg",
-      productTitle4: "Medical supplies",
+      productImg:
+        "https://m.media-amazon.com/images/I/61iy2Ru9KdS._AC_UY327_FMwebp_QL65_.jpg",
+      productHeading: "OnePlus Nord CE 5G (Blue Void, 8GB RAM, 128GB Storage)",
+      productRating: "4.1/5",
+      cost: "₹24,999",
+      totalCost: "₹27,999",
+      discount: "₹3,000 (12%)",
+    },
+    {
+      productImg:
+        "https://m.media-amazon.com/images/I/51mjLMt9XOL._AC_UL480_FMwebp_QL65_.jpg",
+      productHeading: "Men's Solid Regular Fit T-Shirt",
+      productRating: "3.8/5",
+      cost: "₹335",
+      totalCost: "₹1,299",
+      discount: "₹964 (74%)",
+    },
+    {
+        productImg:
+          "https://m.media-amazon.com/images/I/51BKqwKidvL._AC_UL480_FMwebp_QL65_.jpg",
+        productHeading: "Men's Regular Fit Striped Round Neck T-Shirt",
+        productRating: "3.8/5",
+        cost: "₹380",
+        totalCost: "₹1,299",
+        discount: "₹919 (71%)",
+    },
+    {
+        productImg:
+          "https://m.media-amazon.com/images/I/41nvyksD5lL._AC_UL480_FMwebp_QL65_.jpg",
+        productHeading: "Regular Fit Full Sleeve Men's T-Shirt",
+        productRating: "3.4/5",
+        cost: "₹329",
+        totalCost: "₹1,099",
+        discount: "₹770 (70%)",
+    },
+    {
+        productImg:
+          "https://m.media-amazon.com/images/I/41qcwTYie8L._AC_UL480_FMwebp_QL65_.jpg",
+        productHeading: "Tshirt for Men | Cotton t-Shirt| Round Neck Tshirt",
+        productRating: "3.6/5",
+        cost: "₹349",
+        totalCost: "₹999",
+        discount: "₹650 (65%)",
     },
   ];
 
   return (
-    <div className="text-center">
-      <h1 className="">Composition of Components</h1>
-      <div className="container cardRow">
-        <Products className="" productObj={productsList[0]}>
-          <span>Top rated, premium quality | Amazon Brands & more</span>
-        </Products>
-        <Products className="" productObj={productsList[1]}>
-          Automotive essentials | Up to 60% off
-        </Products>
-        <Products className="" productObj={productsList[2]}>
-          Upgrade your home | Amazon Brands & more
-        </Products>
-        <Products className="" productObj={productsList[3]}>
-          Professional tools, testing & more
-        </Products>
+    <div>
+    <div className="container mt-3">
+      <h3 className="">Refurbished Mobile Phones</h3>
+      <div className="cardRow">
+        <div className="item">
+            <Products productObj={productsList[0]} />
+        </div>
+        <div className="item">
+            <Products productObj={productsList[1]} />
+        </div>
+        <div className="item">
+            <Products productObj={productsList[2]} />
+        </div>
+        <div className="item">
+            <Products productObj={productsList[3]} />
+        </div>
       </div>
+    </div>
+
+    <div className="container mt-3">
+      <h3 className="">The Basics Upgrade-All New Casual Tees</h3>
+      <div className="cardRow">
+        <div className="item">
+            <Products productObj={productsList[4]} />
+        </div>
+        <div className="item">
+            <Products productObj={productsList[5]} />
+        </div>
+        <div className="item">
+            <Products productObj={productsList[6]} />
+        </div>
+        <div className="item">
+            <Products productObj={productsList[7]} />
+        </div>
+      </div>
+    </div>
+    
     </div>
   );
 }

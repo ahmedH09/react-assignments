@@ -1,0 +1,40 @@
+{
+  "Products": [
+    {
+      "productImg": "https://m.media-amazon.com/images/I/71os5DRhuSL._AC_UY327_FMwebp_QL65_.jpg",
+      "productHeading": "Samsung Galaxy M32 5G (Sky Blue, 8GB RAM, 128GB Storage)",
+      "productRating": "4.2/5",
+      "cost": "₹22,999",
+      "totalCost": "₹25,990",
+      "discount": "₹2,991 (12%)",
+      "id": 1
+    },
+    {
+      "productImg": "https://m.media-amazon.com/images/I/61iy2Ru9KdS._AC_UY327_FMwebp_QL65_.jpg",
+      "productHeading": "OnePlus Nord CE 5G (Blue Void, 8GB RAM, 128GB Storage)",
+      "productRating": "4.1/5",
+      "cost": "₹24,999",
+      "totalCost": "₹27,999",
+      "discount": "₹3,000 (12%)",
+      "id": 2
+    },
+    {
+      "productImg": "https://m.media-amazon.com/images/I/51mjLMt9XOL._AC_UL480_FMwebp_QL65_.jpg",
+      "productHeading": "Men's Solid Regular Fit T-Shirt",
+      "productRating": "3.8/5",
+      "cost": "₹335",
+      "totalCost": "₹1,299",
+      "discount": "₹964 (74%)",
+      "id": 3
+    },
+    {
+      "productImg": "https://m.media-amazon.com/images/I/41nvyksD5lL._AC_UL480_FMwebp_QL65_.jpg",
+      "productHeading": "Regular Fit Full Sleeve Men's T-Shirt",
+      "productRating": "3.4/5",
+      "cost": "₹329",
+      "totalCost": "₹1,099",
+      "discount": "₹770 (70%)",
+      "id": 4
+    }
+  ]
+}
